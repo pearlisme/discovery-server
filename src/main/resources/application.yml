@@ -1,0 +1,25 @@
+#
+# Spring Config
+#
+
+spring:
+  application:
+    name: discovery-server
+    
+server:
+  port: 8761
+
+#
+# Eureka Client Config
+#
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+#eureka.dashboard.enabled=true
+
+# Eureka server provider
+
+# Zuul provider
